@@ -3,7 +3,7 @@ kind: Pod
 metadata:
   name: pod-1
   labels:
-  purpose: affinity
+    purpose: affinity
 spec:
   containers:
   # docker run -d --name nginx nginx
